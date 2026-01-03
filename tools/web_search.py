@@ -1,9 +1,6 @@
 from langchain.tools import tool
 from tavily import TavilyClient
-from dotenv import load_dotenv
 import os
-
-load_dotenv("genai_project.env")
 
 tavily = TavilyClient(api_key=os.getenv("TAVILY_API_KEY"))
 

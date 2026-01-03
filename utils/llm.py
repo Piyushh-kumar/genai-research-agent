@@ -1,8 +1,5 @@
 from langchain_groq import ChatGroq
-from dotenv import load_dotenv
 import os
-
-load_dotenv("genai_project.env")
 
 def get_llm():
     return ChatGroq(
