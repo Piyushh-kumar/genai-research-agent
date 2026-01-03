@@ -1,0 +1,9 @@
+streamlit
+langchain
+langgraph
+langchain-groq
+tavily-python
+python-dotenv
+reportlab
+requests
+beautifulsoup4

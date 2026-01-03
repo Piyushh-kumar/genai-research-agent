@@ -1,0 +1,18 @@
+# Virtual environments
+venv/
+source/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+genai_project.env
+
+# Generated files
+research_report.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
